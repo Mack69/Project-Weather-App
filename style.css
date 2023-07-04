@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "poppins";
+}
+
+body {
+}
+
+.container {
+  width: 90%;
+  max-width: 460px;
+  padding: 35px 40px;
+  margin: 80px auto 0;
+  background: linear-gradient(130deg, rgb(70, 187, 132), rgb(110, 163, 248));
+  color: whitesmoke;
+  border-radius: 45px;
+  text-align: center;
+}
+
+button img {
+  background: transparent;
+}
