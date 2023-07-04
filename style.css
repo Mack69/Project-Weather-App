@@ -3,21 +3,55 @@
   padding: 0;
   font-family: "poppins";
 }
+h1 {
+  color: whitesmoke;
+}
 
 body {
+  background: rgba(24, 23, 23, 0.93);
 }
 
 .container {
   width: 90%;
-  max-width: 460px;
-  padding: 35px 40px;
+  max-width: 360px;
+  padding: 35px 30px;
   margin: 80px auto 0;
   background: linear-gradient(130deg, rgb(70, 187, 132), rgb(110, 163, 248));
   color: whitesmoke;
-  border-radius: 45px;
+  border-radius: 25px;
   text-align: center;
+  height: 450px;
 }
 
-button img {
-  background: transparent;
+.search {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.search input {
+  border: none;
+  outline: none;
+  width: 75%;
+  height: 40px;
+  border-radius: 50px;
+  color: rgb(103, 101, 101);
+  padding-left: 20px;
+  font-size: 18px;
+  background: #c9faf0;
+}
+
+.search button {
+  border: none;
+  outline: none;
+  background: #eafffb;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
+}
+
+.search img {
+  width: 16px;
+  height: 19px;
 }
